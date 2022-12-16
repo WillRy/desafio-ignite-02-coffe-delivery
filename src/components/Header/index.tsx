@@ -7,24 +7,27 @@ import {
   HeaderContainer,
   LinkCart,
 } from './styles'
+import { Container } from '../Container'
 
 export function Header() {
   return (
-    <HeaderContainer>
-      <Link to="/">
-        <img src={logo} alt="Coffe Delivery" />
-      </Link>
-      <ActionContainer>
-        <ButtonLocale>
-          <MapPin size={22} weight="fill" />
-          Porto Alegre
-        </ButtonLocale>
+    <Container>
+      <HeaderContainer>
+        <Link to="/">
+          <img src={logo} alt="Coffe Delivery" />
+        </Link>
+        <ActionContainer>
+          <ButtonLocale>
+            <MapPin size={22} weight="fill" />
+            Porto Alegre
+          </ButtonLocale>
 
-        <LinkCart to="/">
-          <ShoppingCart size={22} weight="fill" />
-          <span>3</span>
-        </LinkCart>
-      </ActionContainer>
-    </HeaderContainer>
+          <LinkCart to="/">
+            <ShoppingCart size={22} weight="fill" />
+            <span>3</span>
+          </LinkCart>
+        </ActionContainer>
+      </HeaderContainer>
+    </Container>
   )
 }
