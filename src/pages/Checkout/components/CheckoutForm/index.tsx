@@ -23,7 +23,7 @@ export function CheckoutForm() {
   } = useFormContext()
 
   function handleCepBlur() {
-    const cep = getValues('cep')
+    const cep = getValues('cep').replace(/[^0-9]/g, '')
 
     if (cep.length !== 8) return false
 

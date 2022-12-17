@@ -35,7 +35,6 @@ export const HeroContainer = styled.section`
 
 export const HeroBackground = styled.section`
   background: url(${image});
-  background-size: cover;
   margin-bottom: 32px;
 `
 
