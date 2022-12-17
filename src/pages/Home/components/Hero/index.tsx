@@ -9,6 +9,7 @@ import {
 import heroImage from '../../../../assets/hero.svg'
 import { ShoppingCart } from 'phosphor-react'
 import { Container } from '../../../../components/Container'
+import { RoundIcon } from '../../../../components/RoundIcon'
 export function Hero() {
   return (
     <HeroBackground>
@@ -22,27 +23,27 @@ export function Hero() {
             </h2>
             <div>
               <InfoItem>
-                <InfoIcon variantColor="yellowDark">
+                <RoundIcon variantColor="yellowDark">
                   <ShoppingCart size={16} weight="fill" />
-                </InfoIcon>
+                </RoundIcon>
                 Compra simples e segura
               </InfoItem>
               <InfoItem>
-                <InfoIcon variantColor="gray">
+                <RoundIcon variantColor="gray">
                   <ShoppingCart size={16} weight="fill" />
-                </InfoIcon>
+                </RoundIcon>
                 Embalagem mantém o café intacto
               </InfoItem>
               <InfoItem>
-                <InfoIcon variantColor="yellow">
+                <RoundIcon variantColor="yellow">
                   <ShoppingCart size={16} weight="fill" />
-                </InfoIcon>
+                </RoundIcon>
                 Entrega rápida e rastreada
               </InfoItem>
               <InfoItem>
-                <InfoIcon variantColor="purple">
+                <RoundIcon variantColor="purple">
                   <ShoppingCart size={16} weight="fill" />
-                </InfoIcon>
+                </RoundIcon>
                 O café chega fresquinho até você
               </InfoItem>
             </div>

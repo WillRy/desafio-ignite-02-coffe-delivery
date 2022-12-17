@@ -8,8 +8,11 @@ import {
   LinkCart,
 } from './styles'
 import { Container } from '../Container'
+import { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
 
 export function Header() {
+  const { qtdInCart } = useContext(CartContext)
   return (
     <Container>
       <HeaderContainer>
@@ -22,9 +25,9 @@ export function Header() {
             Porto Alegre
           </ButtonLocale>
 
-          <LinkCart to="/">
+          <LinkCart to="/checkout">
             <ShoppingCart size={22} weight="fill" />
-            <span>3</span>
+            {qtdInCart > 0 && <span>{qtdInCart}</span>}
           </LinkCart>
         </ActionContainer>
       </HeaderContainer>
