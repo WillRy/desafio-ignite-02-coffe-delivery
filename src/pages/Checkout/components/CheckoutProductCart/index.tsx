@@ -41,7 +41,7 @@ export function CheckoutProductCart({ product }: CheckoutProductCartProps) {
           </RemoveCartButton>
         </div>
       </div>
-      <span className="price">R$ {product.price}</span>
+      <span className="price">R$ {product.price.toFixed(2)}</span>
     </Card>
   )
 }

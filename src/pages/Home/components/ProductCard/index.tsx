@@ -43,7 +43,7 @@ export function ProductCard({ product }: ProductCardProps) {
       <p>{product.description}</p>
       <CardInfo>
         <CardPrice>
-          R$&nbsp;<span>{product.price}</span>
+          R$&nbsp;<span>{product.price.toFixed(2)}</span>
         </CardPrice>
         <CardInput>
           <Minus size={22} weight="fill" onClick={handleSubQuantity} />
