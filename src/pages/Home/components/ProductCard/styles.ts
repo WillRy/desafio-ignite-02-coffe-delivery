@@ -36,8 +36,6 @@ export const Card = styled.div`
       background: ${(props) => props.theme['yellow-100']};
       border-radius: 100px;
 
-      font-family: 'Roboto';
-      font-style: normal;
       font-weight: 700;
       font-size: 0.625rem;
       line-height: 130%;
@@ -68,8 +66,6 @@ export const Card = styled.div`
   }
 
   p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 130%;
@@ -93,8 +89,7 @@ export const CardInfo = styled.div`
 export const CardPrice = styled.div`
   display: flex;
   align-items: center;
-  font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 130%;
@@ -163,8 +158,6 @@ export const CardInput = styled.div`
   background: ${(props) => props.theme.button};
   border-radius: 6px;
 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 130%;

@@ -49,7 +49,6 @@ export const InputOptionalPlaceholder = styled.div`
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(0%, -50%);
-  font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
   font-size: 12px;

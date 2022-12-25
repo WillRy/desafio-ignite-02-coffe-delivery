@@ -33,7 +33,6 @@ export const BoxContent = styled.div`
       align-items: center;
       justify-content: space-between;
 
-      font-family: 'Roboto';
       font-weight: 400;
       font-size: 14px;
       line-height: 130%;
@@ -68,8 +67,6 @@ export const ProductInCart = styled.div`
   }
 
   .product {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 130%;
@@ -106,7 +103,6 @@ export const ButtonFinishCheckout = styled.button`
 
   /* Components/Button G */
 
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 160%;

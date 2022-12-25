@@ -13,8 +13,6 @@ export const BoxTitle = styled.h2`
   align-items: center;
   gap: 8px;
 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -32,8 +30,6 @@ export const BoxTitle = styled.h2`
 `
 
 export const BoxSubTitle = styled.h3`
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;

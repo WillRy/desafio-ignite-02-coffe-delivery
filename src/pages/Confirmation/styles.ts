@@ -9,7 +9,6 @@ export const ConfirmationTitle = styled.h1`
 `
 
 export const ConfirmationSubTitle = styled.h2`
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 130%;
@@ -52,7 +51,6 @@ export const ConfirmationItem = styled.div`
   align-items: center;
   gap: 12px;
 
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 1rem;
   line-height: 130%;

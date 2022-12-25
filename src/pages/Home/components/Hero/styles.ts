@@ -24,7 +24,6 @@ export const HeroContainer = styled.section`
   }
 
   h2 {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
@@ -63,7 +62,6 @@ export const InfoItem = styled.div`
   align-items: center;
   gap: 12px;
 
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;

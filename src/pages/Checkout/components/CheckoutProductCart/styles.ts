@@ -30,8 +30,6 @@ export const Card = styled.div`
   }
 
   .name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 130%;
@@ -56,8 +54,6 @@ export const Card = styled.div`
   .price {
     /* Text/Bold M */
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 130%;
@@ -87,8 +83,6 @@ export const CardInput = styled.div`
   background: ${(props) => props.theme.button};
   border-radius: 6px;
 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 130%;
@@ -126,8 +120,6 @@ export const RemoveCartButton = styled.button`
   border-radius: 6px;
   border: none;
 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
